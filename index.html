@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JacaScript Practices</title>
+</head>
+<body>
+    <h3>
+        Javascript write in two ways 
+        1) Internal by using Script tag
+        2) External by using src 
+    </h3>
+    <script>
+        {
+            console.log("This flower brackets are called block")
+            const PI=3.14;
+            console.log(PI);
+            console.log(typeof PI);
+            const isNull=null;
+            console.log(isNull);
+        }
+        console.log("Variables are three types 1) var (2) let (3) const");
+        console.log("var : Variable can be re-declared & updated. A global scope variable.");
+        console.log("let : Variable cannot be re-declared but can be updated. A block scope variable.");
+        console.log("const : Variable cannot be re-declared or updated. A block scope variable.");
+
+        var name='ashok'; // string with single quotes
+        var name1="Ashok"; // String with double quotes
+        var name3=`ashok`; // String with back ticks
+        var name3="ashok"; // re- declaration a variable 
+        var name3='ashok kumar'; //re- declaration a variable and update 
+        console.log(name3);
+        var name4;// undefined 
+        console.log(name4); 
+        
+         let massage =" hello world";
+         console.log(massage);
+         console.log(typeof massage)
+//console.log(name5);
+
+        var car = {
+            name:"ford",
+            color:"black",
+            model:"Endevor",
+        };
+        console.log(car);
+        console.log(typeof car);
+        console.log(name=["suzuki"]);
+        console.log(car.color="pink");
+        console.log("In Var we can de-decare and update .this is a global variable")
+
+        console.log("Example is Product and it properties");
+         const product ={ 
+            name:`Boll pen`,
+            color:"black",
+            price:50,
+            rating:4.5,
+            isOffer:true,
+            
+         };
+         console.log(` This product is Object `)
+         console.log(typeof product);
+         console.log(product);
+         console.log(product.name);
+         console.log(product["color"]);
+        console.log(product.isOffer);
+        console.log(typeof product.isOffer);
+
+        
+
+         let student_Details ={
+             
+              std:{
+                 name:"motu",
+                }
+            
+        };
+
+
+    </script>
+    
+</body>
+</html>
